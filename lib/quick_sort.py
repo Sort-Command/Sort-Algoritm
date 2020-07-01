@@ -17,5 +17,3 @@ class QuickSort(SortAlgorithm):
             r_arr = [x for x in self._target_list if x > q]
             return l_arr + m_arr + r_arr, self._target_list.sort()
 
-
-
